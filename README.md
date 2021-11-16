@@ -63,6 +63,11 @@ var Referrer = new CoolBuxUser({ user: "builderman" })
 Wrapper.register({ user: User, referrer: Referrer}) // Registers the User account with the referral of Referrer.
     .then(console.log)
     .catch(console.error)
+
+// And some may require BTC/LTC wallet addresses, for example:
+var User = new CoolBuxUser({ user: "ROBLOX", btcwallet: "examplebtcaddress", ltcwallet: "exampleltcaddress" })
+Wrapper.payout({ user: User, method: 'btc', amount: 250 })
+Wrapper.payout({ user: User, method: 'ltc', amount: 250 })
 ```
 
 ## Documentation
