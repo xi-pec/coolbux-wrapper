@@ -1,6 +1,7 @@
 # CoolBux API Wrapper
-A Promise-based API Wrapper for NodeJS.
+A Promise-based CoolBux API Wrapper for NodeJS.
 Please contact saipeaks#8059 for bugs.
+Will make a documentation for CoolBuxUser and GiveawayClient soon.
 
 [Site Link](https://coolbux.live/)
 
