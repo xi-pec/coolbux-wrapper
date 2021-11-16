@@ -11,7 +11,9 @@ var referrals = require('coolbux-wrapper/endpoints/referrals.js')
 var register = require('coolbux-wrapper/endpoints/register.js')
 var validate = require('coolbux-wrapper/endpoints/validate.js')
 var vip = require('coolbux-wrapper/endpoints/vip.js')
+
 var CoolBuxUser = require('coolbux-wrapper/objects/coolbuxuser.js')
+var GiveawayClient = require('coolbux-wrapper/objects/giveawayclient.js')
 
 var APIWrapper = class APIWrapper {
     constructor() {
@@ -29,4 +31,4 @@ var APIWrapper = class APIWrapper {
     }
 }
 
-module.exports = { APIWrapper, CoolBuxUser }
+module.exports = { APIWrapper, CoolBuxUser, GiveawayClient }
