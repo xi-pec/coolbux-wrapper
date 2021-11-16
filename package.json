@@ -1,0 +1,21 @@
+{
+  "name": "coolbux-wrapper",
+  "version": "1.0.1",
+  "description": "A Promise-based Coolbux API Wrapper for JavaScript.",
+  "main": "main.js",
+  "homepage": "https://github.com/xi-pec/coolbux-wrapper",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xi-pec/coolbux-wrapper.git"
+  },
+  "keywords": [
+    "coolbux",
+    "coolbux-api",
+    "coolbux-wrapper"
+  ],
+  "author": "xi_pec",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
